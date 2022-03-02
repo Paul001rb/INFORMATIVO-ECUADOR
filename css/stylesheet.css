@@ -1,0 +1,165 @@
+/* menu */
+
+#menu ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+ }
+ 
+ /* items del menu */
+ 
+ #menu ul li {
+  background-color:#2e518b;
+ }
+ 
+ /* enlaces del menu */
+ 
+ #menu ul a {
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+ }
+ 
+ /* items del menu */
+ 
+ #menu ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:10;
+ }
+ 
+ /* efecto al pasar el ratón por los items del menu */
+ 
+ #menu ul li:hover {
+  background:#7694c4;
+ }
+
+ /* menu desplegable */
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#eee;
+  padding:0;
+ }
+ 
+ /* items del menu desplegable */
+ 
+ #menu ul ul li {
+  float:none;
+  width:200px
+ }
+ 
+ /* enlaces de los items del menu desplegable */
+ 
+ #menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+ }
+ 
+ /* items del menu desplegable al pasar el ratón */
+ 
+ #menu ul li:hover > ul {
+  display:block;
+ }
+
+header
+{
+  text-align: center;
+}
+
+body
+{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/307/703/non_2x/watercolor-pastel-background-hand-painted-aquarelle-colorful-stains-on-paper-vector.jpg");
+	font-family:"Helvetica",Arial;
+  background-size: cover
+}
+h1
+{
+	color:#FF8700;
+  text-shadow: #555 2px 2px 3px
+}
+h2
+{
+	color:#ffe602d3;
+  text-shadow: #555 2px 2px 3px
+}
+footer 
+{
+    background-color:#80ce84;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: black;
+    text-align:center;
+    font-weight: bold;
+}
+
+table {
+   width: 60%;
+   border: 2px solid rgb(212, 128, 128);
+   margin: auto;
+   border-collapse: collapse
+}
+th, td {
+   width: 25%;
+   text-align: justify;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   font-weight: bold;
+}
+.bordered { 
+    border: solid #ccc 1px; 
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px; 
+    border-radius: 20px; 
+    -webkit-box-shadow: 0 3px #ccc; 
+    -moz-box-shadow: 0 3px #ccc; 
+    box-shadow: 0 3px #ccc; 
+}
+#boton
+{
+	font: oblique bold 120% cursive;
+	color:#FF0000;
+
+}
+
+p {
+  text-align: justify;
+  padding: 10px;
+}
+ul {
+  font-size: 120%;
+}
+.alinear-izquierda{
+  padding: 10px;
+  float: left;
+}
+
+.alinear-derecha{
+  padding: 10px;
+  float: right;
+}
+
+.alinear-centro{
+  padding: 10px;
+  float: center;
+  margin-left: 6em;
+}
+
+a {
+  font-size: 150%;
+}
